@@ -34,8 +34,8 @@ s_args = {
     'url': 'https//github.com/basaks/qmlutil',
     'setup_requires': ['numpy >= 1.9.2', 'Cython'],  # required due to scipy
     'install_requires': [
-        'scipy >= 0.15.1',
-        'matplotlib >= 1.5.1',
+        'scipy',
+        'matplotlib',
         'obspy'
     ],
     'dependency_links': [
